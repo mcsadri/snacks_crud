@@ -11,11 +11,11 @@ Add full CRUD functionality to your bag of tricks by building a Django project t
 
 - [X] Create `snacks_crud_project` Django project
 - [X] Create `snacks` app
-- [ ] Create `Snack` model
-- [ ] title field
-  - [ ] purchaser field
-  - [ ] description field
-  - [ ] Register model with admin
+- [X] Create `Snack` model
+  - [X] title field
+  - [X] purchaser field
+  - [X] description field
+  - [X] Register model with admin
 
 - [ ] Create `SnackListView` that extends appropriate generic view
   - [ ] associated url path is an empty string

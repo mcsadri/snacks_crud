@@ -1,3 +1,4 @@
-from django.shortcuts import render
+from django.views.generic import ListView, DetailView
+from .model import Snack
 
-# Create your views here.
+
