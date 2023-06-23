@@ -10,4 +10,4 @@ class Snack(models.Model):
     img_url = models.URLField()
 
     def __str__(self):
-        return self.name
+        return self.title
