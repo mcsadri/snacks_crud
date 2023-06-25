@@ -1,4 +1,4 @@
-from django.views.generic import ListView, DetailView, TemplateView
+from django.views.generic import ListView, DetailView, TemplateView, CreateView
 from .models import Snack
 
 
@@ -16,3 +16,10 @@ class SnackDetailView(DetailView):
 
 class SnackAboutView(TemplateView):
     template_name = 'about.html'
+
+
+# CRUD views:
+class SnackCreateView(CreateView):
+    template_name = "snack_create.html"
+    model = Snack
+    fields = ["title", "purchaser", "description", "info_url"]
