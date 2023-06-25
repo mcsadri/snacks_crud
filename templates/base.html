@@ -17,7 +17,13 @@
 </head>
 <body>
 
-{#    <h1>Boldy Go Snacks:</h1>#}
+    <nav>
+        <a href="{% url 'snack_list' %}">Home</a>
+        <a href="{% url 'snack_about' %}">About</a>
+        <a href="{% url 'admin:index' %}" target="_blank">Admin</a>
+    </nav>
+
+    <br>
 
     {% block content %}
 

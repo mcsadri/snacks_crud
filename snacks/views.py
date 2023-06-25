@@ -1,4 +1,4 @@
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, TemplateView
 from .models import Snack
 
 
@@ -12,3 +12,7 @@ class SnackListView(ListView):
 class SnackDetailView(DetailView):
     template_name = "snack_detail.html"
     model = Snack
+
+
+class SnackAboutView(TemplateView):
+    template_name = 'about.html'
