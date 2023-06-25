@@ -161,3 +161,6 @@ cython_debug/
 
 #js
 node_modules/
+
+# flowbite & tailwindcss
+static/CACHE/
