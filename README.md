@@ -12,42 +12,24 @@ Add full CRUD functionality to your bag of tricks by building a Django project t
 - [X] Create `snacks_crud_project` Django project
 - [X] Create `snacks` app
 - [X] Create `Snack` model
-  - [X] title field
-  - [X] purchaser field
-  - [X] description field
-  - [X] Register model with admin
-
-- [ ] Create `SnackListView` that extends appropriate generic view
-  - [ ] associated url path is an empty string
-
-- [ ] Create `SnackDetailView` that extends appropriate generic view
-  - [ ] associated url path is `<int:pk>/`
-
-- [ ] Create `SnackCreateView` that extends appropriate generic view
-  - [ ] associated url path is `create/`
-
-- [ ] Create `SnackUpdateView` that extends appropriate generic view
-  - [ ] associated url path is `<int:pk>/update/`
-
-- [ ] Create `SnackDeleteView` that extends appropriate generic view
-  - [ ] associated url path is `<int:pk>/delete/`
-
-- [ ] Add urls to support all views, with appropriate names
-- [ ] Add templates to support all views
-- [ ] Add navigation links in appropriate locations to access all pages
-- [ ] Make all necessary changes to project level files for project to run
-  - [ ] In other words, make it work
+- [X] Create `SnackListView` that extends appropriate generic view
+- [X] Create `SnackDetailView` that extends appropriate generic view
+- [X] Create `SnackCreateView` that extends appropriate generic view
+- [X] Create `SnackUpdateView` that extends appropriate generic view
+- [X] Create `SnackDeleteView` that extends appropriate generic view
+- [X] Add urls to support all views, with appropriate names
+- [X] Add templates to support all views
+- [X] Add navigation links in appropriate locations to access all pages
+- [X] Make all necessary changes to project level files for project to run
 
 ## Stretch Goals
 
 - [ ] add multiple models
 - [ ] use an alternate test runner
 - [ ] add more advanced fields to models, e.g. created time stamp
-- [ ] add styling
+- [X] add styling
 
 ## UAT
 
-- [ ] Test all Views
-- [ ] Test Model
-  - [ ] string representation
-  - [ ] all fields
+- [X] Test all Views
+- [X] Test Model
