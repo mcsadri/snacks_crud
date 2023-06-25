@@ -1,25 +1,9 @@
 {%  extends 'base.html' %}
 
-
-{#{%  block content %}#}
-{##}
-{#    {% for snack in snacks %}#}
-{##}
-{#        <h2><a href="{% url 'snack_detail' snack.pk %}">{{ snack.title }}</a></h2>#}
-{##}
-{#    {% endfor %}#}
-{##}
-{#{% endblock content %}#}
-
-
-
 {%  block content %}
     {% for snack in snacks %}
 
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-{#            <a href="{% url 'snack_detail' snack.pk %}">#}
-{#                <img class="rounded-t-lg" src="{{ snack.img_url }}" alt="" />#}
-{#            </a>#}
             <div class="p-5">
                 <a href="#">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ snack.title }}</h5>
@@ -38,16 +22,3 @@
 
     {% endfor %}
 {% endblock content %}
-
-
-
-{#{%  block content %}#}
-{#    {% for snack in snacks %}#}
-{##}
-{#        <a href="{% url 'snack_detail' snack.pk %}" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">#}
-{#            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ snack.title }}</h5>#}
-{#            <p class="font-normal text-gray-700 dark:text-gray-400">{{ snack.description }}</p>#}
-{#        </a>#}
-{##}
-{#    {% endfor %}#}
-{#{% endblock content %}#}
